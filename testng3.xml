@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="facebook App test automation Suite">
+  <test  name="facebook App Test">
+  <parameter name="browser" value="Chrome"/>
+  <parameter name="url" value="https://www.facebook.com"/>
+  <parameter name="emailid" value="karnasathri05@gmail.com"/>
+  <classes>
+  <class name="com.qa.screenshort.Siva"></class>
+  </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
